@@ -35,7 +35,7 @@ const cart = [
 
 //CODE HERE
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
+const summedPrice = cart.reduce((acc, curr) => acc + curr)
 
 
 //////////////////PROBLEM 2////////////////////
@@ -54,8 +54,12 @@ const cart = [
 */
 
 //CODE HERE
+const calcFinalPrice = (cartTotal, couponValue, tax) => {
+    return total = cartTotal * tax + 1 - couponValue
+}
 
 
+console.log(calcFinalPrice(10,1,.07))
 
 //////////////////PROBLEM 3////////////////////
 /*  
@@ -78,7 +82,10 @@ const cart = [
 */
 
 /*
-    TEXT ANSWER HERE
+    The customer should have an order number, which will be a number to track who they are
+    The customer should have a name, which will be a string to give them a easy label
+    the customer should have an address, which will be a string to ship or bill the prodcut
+    the customer should have a membership check, which will be a boolean value to see if they are a rewards member
 
 */
 
@@ -88,3 +95,9 @@ const cart = [
 */
 
 //CODE HERE
+let customer = {
+    name: "Dave",
+    orderNumber: 11,
+    address: "593 E aspen drive",
+    isMember: true
+}

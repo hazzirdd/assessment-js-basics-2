@@ -31,7 +31,14 @@
 */
 
 //CODE HERE
-
+let pizza = {
+    name: "Cheese Pizza",
+    price: 5,
+    category: "entree",
+    popularity: 10,
+    rating: 8,
+    tags: ["Cheesy", "Kids", "Popular"]
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -43,7 +50,7 @@
 */
 
 //CODE HERE
-
+console.log(pizza.popularity)
 
 /*
     Second, log the second tag in your pizza's
@@ -53,7 +60,7 @@
 */
 
 //CODE HERE
-
+console.log(pizza.tags[1])
 
 /*
     Third, destructure the price off of the
@@ -63,7 +70,9 @@
 */
 
 //CODE HERE
+let {price} = pizza;
 
+console.log(price);
 
 /*
     Fourth, and last, destructure the category
@@ -73,8 +82,9 @@
 */
 
 //CODE HERE
+let {category} = pizza
 
-
+console.log(category)
 //////////////////PROBLEM 3////////////////////
 /* 
     Create an array with about 5 objects in it.
@@ -89,7 +99,56 @@
 
 //CODE HERE
 
-
+foodArr = [
+    {
+         name: "Cheese Pizza",
+         price: 5,
+         category: "entree",
+        popularity: 10,
+        rating: 8,
+        tags: ["Cheesy", "Kids", "Popular"]
+    },
+    {
+        name: "Chicken Pizza",
+    price: 6,
+    category: "entree",
+    popularity: 6,
+    rating: 8,
+    tags: ["Cheesy", "Meats", "BBQ"]
+    },
+    {
+        name: "Pep Pizza",
+    price: 3,
+    category: "entree",
+    popularity: 10,
+    rating: 8,
+    tags: ["Cheesy", "Kids", "Popular"]
+    },
+    {
+        name: "Steak Pizza",
+    price: 6,
+    category: "entree",
+    popularity: 5,
+    rating: 5,
+    tags: ["Cheesy", "Meats", "BBQ"]
+    },
+    {
+        name: "Kid's Pizza",
+    price: 2,
+    category: "entree",
+    popularity: 9,
+    rating: 8,
+    tags: ["Cheesy", "Kids", "Small"]
+    },
+    {
+        name: "Veggy Pizza",
+    price: 4,
+    category: "entree",
+    popularity: 2,
+    rating: 1,
+    tags: ["Vegan", "Unpopular", "Small"]
+    }
+]
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -102,11 +161,12 @@
     You can check for any tag that at least 1 of
     your food objects has.
 */
-
+ 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = foodArr.filter(foodArr => foodArr.tags === foodArr.tags["BBQ"])
 
+console.log(filteredFood)
 
 
 //////////////////PROBLEM 5////////////////////
@@ -149,7 +209,13 @@
 */
 
 //CODE HERE
-
+const filterByProperty = (property, num, type) => {
+    let filteredArr = [];
+    if(type === above) {
+        return > num
+    }
+    
+}
 
 /*
     Invoke the `filterByProperty` function passing
@@ -159,3 +225,7 @@
 */
 
 //CODE HERE
+
+filterByProperty("rating", 6, above)
+
+console.log()
