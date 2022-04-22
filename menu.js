@@ -212,7 +212,7 @@ console.log(filteredFood)
 const filterByProperty = (property, num, type) => {
     let filteredArr = [];
     if(type === above) {
-        return > num
+        return num >=
     }
     
 }

@@ -123,8 +123,9 @@ const deals = [
 //CODE HERE
 
 
+const result = deals.toString().replace(deals[0].title, "10% Off!")
 
-console.log(deals)
+console.log(result)
 
 /*
     The restaurant is going to continue its
@@ -140,3 +141,6 @@ console.log(deals)
 */
 
 //CODE HERE
+
+const change = deals.toString().replace(deals[1].desc, "March", "April")
+console.log(change)
