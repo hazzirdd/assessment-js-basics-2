@@ -24,7 +24,7 @@
 //CODE HERE
 
 const greetUser = (username) => `Welcome back, ${username}`
-// console.log(greetUser('Hayden'))
+console.log(greetUser('Hayden'))
 
 //////////////////PROBLEM 2////////////////////
 /* 
@@ -59,7 +59,7 @@ const canWeDeliver = (zipcode) => {
     return ("Sorry, we can't deliver to that address")
 } 
 
-// console.log(canWeDeliver(85213))
+console.log(canWeDeliver(85213))
 
 /* 
     Problem 2 Continued

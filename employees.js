@@ -51,7 +51,7 @@ let empOne = new Employee ("Jess", "weekday mornings, weekday afternoons")
 */
 
 //CODE HERE
-// empOne.getSchedule()
+empOne.getSchedule()
 
 /*
     Make a copy of the empOne object
@@ -70,7 +70,7 @@ let empTwo = {...empOne}
 
 empTwo.name = "Nick"
 
-// console.log(empTwo)
+console.log(empTwo)
 
 //////////////////PROBLEM 2////////////////////
 /*  
