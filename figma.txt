@@ -1,3 +1,11 @@
 FIGMA LINK
 https://www.figma.com/file/9m7zwAZkv6zElVwAfzwVdm/Untitled?node-id=0%3A1
 
+
+RESEARCH COMPANY 1
+Google's tech stack includes:
+Python, Java, AngularJS, android SDK, Golang, C++, Dart, Guava, Material Design, Preact and LevelDB
+
+Google is hiring:
+Software Engineer, Video Performance
+Discription: esign and implement optimization and quality opportunities in components involved during Google Meet calls.
