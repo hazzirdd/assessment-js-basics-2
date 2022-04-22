@@ -66,4 +66,4 @@ let firstTicket = new Ticket(["pizza", "bread", "soda"], '7:03pm', 575)
 */
 
 //CODE HERE
-updateStatus("Cooking")
+firstTicket.updateStatus("Cooking")
